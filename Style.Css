@@ -1,0 +1,49 @@
+
+.Section{
+    width: 60px;
+    height: 50px;
+    background-color: aqua;
+animation-name: Anim;   
+animation-duration: 5s; 
+animation-iteration-count: 1;
+animation-direction:normal
+
+}
+
+@keyframes Anim{
+
+ 0%{
+     background-color: blueviolet;
+ margin-left: 0px;
+ margin-top: 0px;
+    }   
+25%{background-color: green;
+    border-radius: 10px 0px 10px 0px;
+    margin-left: 300px;
+    margin-top: 0px;
+    } 
+50%{background-color: rgb(68, 46, 25);
+
+    /* margin-top: 300px;
+    margin-left: 300px; */
+    margin-top: 300px;
+    margin-left: 300px;
+    } 
+75%{
+    background-color: rgb(43, 168, 226);
+    border-radius: 10px 0px 10px 0px;
+    /* margin-bottom: 75px; */
+    /* margin-left: 300px;
+    margin-top: 300px; */
+    /* margin-top: 300px;
+    margin-left: 300px; */
+    margin-top: 300px;
+    margin-left: 0px;
+    } 
+
+100%{background-color: red;
+    /* margin-top: 100px; */
+    margin-top: 0px;
+    margin-left: 0px;
+    } 
+}
